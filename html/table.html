@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        th, td{
+            padding:5px; 
+            text-align: center;  
+        }
+        td:first-child{
+            color:white;
+        }
+
+    </style>
+</head>
+<body>
+    <table border style='border-collapse: collapse;'>
+        <colgroup>
+            <col style='background-color: blue'/>
+            <col span='6'/>
+            <col style='background-color: red'/>
+        </colgroup>
+        <tr>
+            <th>&nbsp;</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+            <th rowspan='8' style='color: white;'>Sun</th>
+        </tr>
+        <tr>
+            <td>9 AM</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Physics</td>
+            <td colspan='2'>Biology</td>
+        </tr>
+        <tr>
+            <td>10 AM</td>
+            <td colspan='2'>English</td>
+            <td>Maths</td>
+            <td>Physics</td>
+            <td>Maths</td>
+            <td>Bilogy</td>
+        </tr>
+        <tr>
+            <td>11 AM</td>
+            <td>English</td>
+            <td>Biology</td>
+            <td>Physics</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Maths</td>
+        </tr>
+        <tr>
+            <td>12 PM</td>
+            <td colspan='6'>Break</td>
+            
+        </tr>
+        <tr>
+            <td>1 PM</td>
+            <td rowspan='2'>Maths</td>
+            <td>English</td>
+            <td>Physics</td>
+            <td>Maths</td>
+            <td>Biology</td>
+            <td>Science</td>
+        </tr>
+        <tr>
+            <td>2 PM</td>
+            <td>Biology</td>
+            <td>Physics</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>English</td>
+        </tr>
+        <tr>
+            <td>3 PM</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>English</td>
+            <td>Biology</td>
+            <td>Physics</td>
+            <td>Maths</td>
+        </tr>
+    </table>
+</body>
+</html>
